@@ -25,16 +25,17 @@ body {
 .sidebar .button {
     display: flex;
     align-items: center;
-    padding: 5px 8px;
+    padding: 10px 20px;
     color: #fff;
     text-decoration: none;
-    text-align: center;
+    text-align: center; 
+    font-size: larger;
     border-radius: 5px;
     transition: box-shadow 0.4s ease-out;
 }
 
 span {
-    font-size: 5px;
+    font-size: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,7 +94,7 @@ video {
     }
     
     .sidebar .button {
-        font-size: 12px;
+        font-size: 15px;
         padding: 8px 10px;
         flex-direction: row;
         gap: 5px;
